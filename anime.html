@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        div{
+           background-color: crimson;
+           height: 100px;
+           width: 100px;
+           animation-name: anime;
+           animation-duration: 5s;
+           animation-iteration-count: infinite;
+           animation-delay: 2s;
+           animation-direction: alternate-reverse;
+           position: relative;
+           top: 20px;
+           left: 20px;
+
+        }
+        @keyframes anime
+       {
+        0%{background-color: crimson; left: 20px; top: 20px;}
+        25%{background-color: blue; left: 250px; top: 20px;}
+        50%{background-color: burlywood ; left: 250px; top: 250px;}
+        75%{background-color: forestgreen; left: 20px; top: 250px; }
+        100%{background-color: crimson; left: 20px; top: 20px;}
+
+        }
+    </style>
+    <body>
+        <div></div>
+    </body>
+</html>
